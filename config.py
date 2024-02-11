@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", "18551731"))
+API_HASH = getenv("API_HASH", "227df64ada8de8ebad3b3df5a7603d12")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "5876687339:AAEsOoNYlr6uicFaYhnuVr2HHNs_ftheu34")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Panda:Panda@cluster0.npflvn5.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", ""))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1001841361508"))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID",))
+OWNER_ID = int(getenv("OWNER_ID", "5498943520"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,16 +39,16 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FAMILYTIME_OFFICAL")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/FAMILYTIME_OFFICAL")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "")
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "")
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "dc178c599df74db88aea4d261234178a")
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "7fa1047aca394d16b60c6a38226b573e")
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("STRING_SESSION", "BQEbE7MADDfO8qmQzN3FoeQjSctM2dCon3nk5G9Axu5NvOW6x4TnMpBIQk97LltQvCkZiWjwnwxIZeNkl32m7J7s-BNO8DlQsiP9FXCHRR_RVoHQlUp1L8iIZRS477HtT8_IK-sSDRGEffO47ThVrRULrzwb-tuWqWTqysWv0etp0uYPhYLZs5BWPvQyiYM_CxRzeOzL7zPDBU9O-O8KWlevo1jQy_y1PIkBawg6rPNadRMaa91tVW2wP29QVGZRM4iPnicRuIdLNTlru1qXpT54iZ-vgBzRhzC2-wz3KpvCurca7Xw61J-WnZRGZNQJZoYDaYthpJPGPcBm9MalwiInAgW3bAAAAAGWO_efAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -78,21 +78,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", ""
+    "START_IMG_URL", "https://telegra.ph/file/10889e69f6cc1a3d4d54e.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", ""
+    "PING_IMG_URL", "https://telegra.ph/file/10889e69f6cc1a3d4d54e.jpg"
 )
-PLAYLIST_IMG_URL = ""
-STATS_IMG_URL = ""
-TELEGRAM_AUDIO_URL = ""
-TELEGRAM_VIDEO_URL = ""
-STREAM_IMG_URL = ""
-SOUNCLOUD_IMG_URL = ""
-YOUTUBE_IMG_URL = ""
-SPOTIFY_ARTIST_IMG_URL = ""
-SPOTIFY_ALBUM_IMG_URL = ""
-SPOTIFY_PLAYLIST_IMG_URL = ""
+PLAYLIST_IMG_URL = "https://telegra.ph/file/10889e69f6cc1a3d4d54e.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/10889e69f6cc1a3d4d54e.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/10889e69f6cc1a3d4d54e.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/10889e69f6cc1a3d4d54e.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/10889e69f6cc1a3d4d54e.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/10889e69f6cc1a3d4d54e.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/10889e69f6cc1a3d4d54e.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/10889e69f6cc1a3d4d54e.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/10889e69f6cc1a3d4d54e.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/10889e69f6cc1a3d4d54e.jpg"
 
 
 def time_to_seconds(time):
